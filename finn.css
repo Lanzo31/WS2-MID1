@@ -1,0 +1,202 @@
+@font-face {
+    font-family: FuturaDisplayBQ;
+    src: url(../css/Futura\ Display\ BQ\ Regular.otf);
+  }
+  
+  body {
+    background-image: linear-gradient(to bottom, #2200cf, #4548f3, #ffffff);
+    padding-top: 50px;
+  }
+  
+  header h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Averia Serif Libre', cursive;
+    color: rgb(200, 197, 0);
+    -webkit-text-stroke:0.5px black ;
+
+    letter-spacing: 3px;
+    margin-top: 50px;
+    margin-bottom: 2em;
+  }
+  
+   header img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 350px;
+    border-radius: 190px;
+    border-style: solid;
+    border-color: 	#89CFF0;
+    border-width: 12px;
+    display: block;
+  }
+  
+  .box {
+    width: 100%;
+  }
+  
+  .box2 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: rgba(4, 82, 51, .4);
+    border-radius: 32px;
+  }
+  
+  .box-for-image {
+    width: 300px;
+    margin: 64px 16px 64px 32px;
+    display: inline-block;
+  }
+  
+  .fin-pic {
+    width: auto;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  .box-description {
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 125px 32px 64px 16px;
+    padding: 12px 32px 12px 32px;
+    background-color: #F9F6EE;
+    border-radius: 16px;
+  }
+  
+  .box3 {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  .box-description h2 {
+    font-family: FuturaDisplayBQ;
+    font-size: 32px;
+    color: #4682b4;
+    letter-spacing: .1em;
+    margin-bottom: 0;
+  }
+  
+  .box-description p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #28282B;
+    margin-top: 10px;
+    line-height: 25px;
+    text-indent: 35px;
+  }
+  
+  .box-description ul {
+    list-style-type: circle;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 10px;
+    color: #28282B;
+  }
+  
+  .box-group-photo {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10em;
+    display: block;
+  }
+  
+  .box-group-photo img {
+    width: 1190px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-style: solid;
+    border-color: #F9F6EE;
+    border-width: 5px;
+    border-radius: 25px;
+  }
+  
+  .box-group-photo p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #28282B;
+    margin-left: 15px;
+    font-style: oblique;
+  }
+  
+  hr {
+    height: 2px;
+    background-color: #F9F6EE;
+    margin-top: 5em;
+  }
+  
+  .finn-friends {
+    font-family: FuturaDisplayBQ;
+    font-size: 32px;
+    color: #0B66C9;
+    -webkit-text-stroke:0.5px black ;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .friends-list {
+    width: 230px;
+    height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    display: block;
+  }
+  
+  .friends-list img {
+    width: 60px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    display: inline-block;
+    filter: grayscale(100%);
+    border-style: solid;
+    border-color: #F9F6EE;
+    border-width: 2px;
+    border-radius: 40px;
+  }
+  
+  .friends-list img:hover {
+    filter: grayscale(0%);
+    background-color: #1f66f3;
+    border-radius: 10px;
+    transition: .5s ease;
+  }
+  
+  footer {
+    background-color: #28282B;
+    margin-top: 50px;
+  }
+  
+  footer p {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #F9F6EE;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .link a {
+    text-decoration: none;
+    color: #0072f4;
+  }
